@@ -1,11 +1,14 @@
-import A from "./propsdrilling/A"
+
 import "./App.css"
+
+import UserefC from "./useref/UserefC";
+
 function App() {
-  return (
+  return(
 
     
-   <div  className="A">
-   <br></br>      <A/>
+   <div>
+    <UserefC/>
   </div>
    
 
